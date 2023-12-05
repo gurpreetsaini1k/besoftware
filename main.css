@@ -1,0 +1,82 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar .navbar-nav .nav-link {
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    line-height: normal;
+    font-size: 16px;
+    color: #3F3F3F;
+}
+.navbar .navbar-nav .nav-link:hover {
+    color: #26ABE6;
+}
+.navbar .navbar-nav {
+    gap: 10px;
+    padding-left: 20px;
+}
+.navbar {
+    background-color: white;
+    box-shadow: 0px 4px 8.4px -2px rgba(0, 0, 0, 0.06);
+    z-index: 2;
+}
+.navbar .btn-primary{
+    border-radius: 3px;
+    background-color: #25AAE2;
+    border: none;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar .btn-primary:hover{
+    border-radius: 3px;
+    background-color: #25AAE2;
+    border: none;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 58px;
+  }
+.card-heading {
+color: #6AC57F;
+font-size: 22px;
+font-weight: 400;
+  }
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    padding: 40px 40px 0px 40px;
+  }
+.card-topheading {
+    font-size: 40px;
+    font-weight: 400;
+}
+.smallheading {
+    color: #25AAE2;
+    font-size: 18px;
+}
+.card {
+    border-radius: 18px !important;
+    box-shadow: 0px 6px 5.7px 1px rgba(0, 0, 0, 0.04);
+    border: 1px solid #EBEBEB !important;
+}
+.about_us_subheading {
+    color: #6AC57F;
+    font-weight: 400;
+}
+.about_us_heading {
+    font-weight: 400;
+}
+.about_us_paragraph {
+text-align: left;
+}
